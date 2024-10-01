@@ -1,0 +1,205 @@
+html {
+    --color-verde: #58f316e4; 
+    --color-contenido: gray; 
+}
+body {
+    font-family: Arial, sans-serif;
+    width: 1024px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 20px 40px;
+    position: relative;
+}
+
+
+.BIKE {
+    height: 50px;
+    margin: 0;
+}
+
+.circulos {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    position: absolute;
+    top: 35px;
+    right: 180px; 
+}
+
+.circulos img {
+    height: 24px;
+    width: auto;
+}
+
+.buy {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    right: 25px;
+    top: 25px; 
+}
+
+.buy img[src="img/buy.png"] {
+    width: 55px;
+    height: auto;
+    transition: transform 0.3s; 
+}
+
+.buy img[src="img/buy.png"]:hover {
+    transform: scale(1.2);
+}
+
+.buy .shop {
+    font-size: 16px;
+    color: var(--color-contenido);
+    margin-top: 5px;
+}
+
+nav {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    width: 100%;
+    padding: 10px 0;
+    border-bottom: 1px dashed gray;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    font-size: 18px;
+    font-weight: bold; 
+}
+
+.centro {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px; 
+    padding: 40px 20px;
+}
+
+.centro h1 {
+    margin: 0;
+    padding-bottom: 20px;
+    font-size: 48px;
+    font-weight: bolder;
+    border-bottom: 1px dashed gray;
+}
+
+.centro h1 span {
+    color: var(--color-verde);
+}
+
+.centro p {
+    font-size: 18px;
+    color: var(--color-contenido);
+    line-height: 1.6;
+    margin: 20px 0;
+}
+
+.videos {
+    display: flex;
+    gap: 20px; 
+    margin-top: 20px; 
+}
+
+.bike {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bicicleta {
+    position: relative;
+}
+
+.bicicleta img {
+    max-width: 100%;
+    height: auto;
+    width: 380px;
+    margin-bottom: -10px; 
+}
+
+.years {
+    position: absolute;
+    bottom: -25px; 
+    left: 0;
+}
+
+.years img {
+    width: 110px;
+    height: auto;
+}
+
+footer {
+    color: var(--color-contenido);
+    padding: 30px;
+    text-align: left;
+}
+.redes {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    padding: 20px 0;
+}
+
+.sociales {
+    display: flex;
+    gap: 15px; 
+    margin-right: 20px; 
+}
+
+.sociales img {
+    width: 24px; 
+    height: 24px;
+}
+
+footer section {
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    padding: 20px;
+}
+
+footer article {
+    text-align: left;
+}
+
+footer h4 {
+    margin-bottom: 10px;
+    border-bottom: 1px solid var(--color-contenido);
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+footer ul li {
+    margin-bottom: 5px;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: var(--color-contenido);
+}
+
+footer p {
+    font-size: 14px;
+    line-height: 1.6;
+}
