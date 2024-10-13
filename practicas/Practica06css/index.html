@@ -3,116 +3,151 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Practica 06</title>
+    <title>Help Center</title>
     <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
-    <section class="contenedor">
-        <header class="header">
-            <img src="img/logo-abstract.png" alt="logo" >
-            Abstract | Help Center
-            <input type="button" value="Submit a request">
-            <input type="button" value="Sign in">
-            <br>
-        </header>
-        <article class="article1">
-            How can we help?
-            <input type="search" value="Search">
-            <br>
-        </article>
-        <article>
-            <img src="img/icon-branches.png" alt="branches">
-            Branches
-            Abstract Branches lets you manage, 
-            version, and document your designs in
-            one place.
-            <br>
-            Learn More
-            <br>
-        </article>
-        <article>
-            <img src="img/icon-projects.png" alt="projects">
-            Manage organizations, teams, and
-            projects
-            Use Abstract organizations, teams, and
-            projects to organize your people and your
-            work.
-            <br>
-            Learn Mores
-            <br>
-        </article>
-        <article>
-            <img src="img/icon-auth.png" alt="auth">
-            Authentication to Abstract
-            Set up and configure SSO,SSCIM, and 
-            Just-in-Time provisioning.
-            <br>
-            Learn More
-            <br>
-        </article>
-        <article>
-            <img src="img/icon-account.png" alt="account">
-            Manage your account 
-            Configure your account settings, such as
-            your email, profile details, and password.
-            <br>
-            Learn More
-            <br>
-        </article>
-        <article>
-            <img src="img/icon-billing.png" alt="billing">
-            Manage billing
-            Change subscriptions and payment
-            details.
-            <br>
-            Learn More
-            <br>
-        </article>
-        <article>
-            <img src="img/logo-abstract.png" alt="abstract">
-            Abstract support
-            <br>
-            Get in touch with a human.
-            <br>
-            Learn More
-            <br>
-        </article>
-    </section>
+    <header>
+        <nav>
+            <img src="img/logo-abstract.png" alt="abstract1">
+            <span>Abstract | Help Center</span>
+            <ul class="botones">
+                <li><button class="button1">Submit a request</button></li>
+                <li><button class="button2">Sign in</button></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="banner_grid">
+            <h1>How can we help?</h1>
+            <form>
+                <input class="search_input" type="text" placeholder="Search">
+                <button class="search_boton" type="submit"></button>
+            </form>
+        </section>
+        <section class="articles_grid">
+            <article>
+                <figure>
+                    <img src="img/icon-branches.png" alt="branches">
+                </figure>
+                <article class="body_class">
+                    <h2>Branches</h2>
+                    Abstract Branches lets you manage, version,<br>
+                     and document your designs in <br>
+                      one place. <br>
+                    <a>Learn More →</a>
+                </article>
+            </article>
+            <article>
+                <figure>
+                    <img src="img/icon-account.png" alt="account">
+                </figure>
+                <article class="body_class">
+                    <h2>Manage your account</h2>
+                    Configure your accountt settings, such as your email,
+                         profile details, and password. <br>
+                    <a>Learn More →</a>
+                </article>
+            </article>
+            <article>
+                <figure>
+                    <img src="img/icon-projects.png" alt="projects">
+                </figure>
+                <article class="body_class">
+                    <h2>Manage organizations, teams, and <br>
+                         projects</h2>
+
+                    Use abstract organizations, teams,<br>
+                        and projects to organize your people and your <br>
+                         work. <br>
+                    <a>Learn More →</a>
+                </article>
+            </article>
+            <article>
+                <figure>
+                    <img src="img/icon-billing.png" alt="billing">
+                </figure>
+                <article class="body_class">
+                    <h2>Manage billing</h2>
+                    Change subscriptions and payment <br>
+                    details.  <br>
+                    <a>Learn More →</a>
+                </article>
+            </article>
+            <article>
+                <figure>
+                    <img src="img/icon-auth.png" alt="auth">
+                </figure>
+                <article class="body_class">
+                    <h2>Authenticate to Abstract</h2>
+                    Set up and configures SSO, SCIM, and <br>
+                    Just-in-Time provisioning. <br>
+                    <a>Learn More →</a>
+                </article>
+            </article>
+            <article>
+                <figure>
+                    <img src="img/icon-abstract.png" alt="abstract2">
+                </figure>
+                <article class="body_class">
+                    <h2>Abstract support</h2>
+                    Get in touch with a human. <br>
+                    <a >Learn More →</a>
+                </article>
+            </article>
+        </section>        
+    </main>
     <footer>
-        <article>
-            Abstract
-            Branches
-        </article>
-        <article>
-            Resourses
-            Blog
-            Help Center
-            Release Notes
-            Status
-        </article>
-        <article>
-            Community
-            Twitter
-            LinkedIn
-            Facebook
-            Dribbble
-            Podcast
-        </article>
-        <article>
-            Company
-            About Us
-            Careers
-            Legal
+        <section class="footer_grid">
+            <article>
+                <ul>
+                    <li><h3>Abstract</h3></li>
+                    <li>Branches</li>
+                </ul>
+            </article>
+            <article>
+                <ul>
+                    <li><h3>Resources</h3></li>
+                    <li>Blog</li>
+                    <li>Help Center</li>
+                    <li>Release Notes</li>
+                    <li>Status</li>
+                </ul>
+            </article>
+            <article>
+                
+                <ul>
+                    <li><h3>Community</h3></li>
+                    <li>Twitter</li>
+                    <li>LinkedIn</li>
+                    <li>Facebook</li>
+                    <li>Dribbble</li>
+                    <li>Podcast</li>
+                </ul>
+            </article>
+            <article>
+                <ul>
+                    <li><h3>Company</h3></li>
+                    <li>About Us</li>
+                    <li>Careers</li>
+                    <li>Legal</li>
 
-            Contact Us
-            info@abstract.com
-
-        </article>
-        <article>
-            <img src="img/logo-abstract.png" alt="logo_footer">
-            Abstract Studio Design, Inc.
-            All rights reserved
-        </article>
+                </ul>
+            </article>
+            <article class="contact">
+                <ul>
+                    <li><h3>Contact Us </h3></li>
+                    <li>info@abstract.com</li>
+                </ul>
+            </article>
+            <article class="copy">
+                <img src="img/logo-abstract.png" alt="abstracct">
+                <br>
+                <p>&copy; Copyright 2022 <br>
+                     Abstract Studio Design, Inc. <br>
+                     All rights reserved</p>
+            </article>
+        </section>
     </footer>
 </body>
 </html>
